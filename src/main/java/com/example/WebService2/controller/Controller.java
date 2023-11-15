@@ -17,6 +17,8 @@ public class Controller {
 	@GetMapping("/WebService2")
 	public String metodoController2() {
 		System.out.println("Aqui entramos al controller");
+		
+		System.out.println("dfdfMiPrimeraRama");
 		return objetoservicio.metodoService();
 	}
 
